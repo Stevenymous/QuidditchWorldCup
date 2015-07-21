@@ -1,0 +1,11 @@
+﻿<Window x:Class="QuidditchPresentationLayerWPF.WindowDisplayPlayerWhoIsGardienAndTheyAreYoungerThanSeventeen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="WindowDisplayPlayerWhoIsGardienAndTheyAreYoungerThanSeventeen" Height="Auto" Width="Auto" Initialized="LoadData" Closing="SaveDimensionAndPosition">
+    <Grid>
+        <StackPanel>
+            <Label VerticalAlignment="Center" HorizontalAlignment="Center">Liste des joueurs qui sont gardiens ou agés de moins de 17 ans</Label>
+            <ListBox Name="listJoueursGardienOuMoins17Ans"></ListBox>
+        </StackPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8E59EBD9-597D-494E-9341-9767649B9F5A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>QuidditchBusinessLayer</RootNamespace>
+    <AssemblyName>QuidditchBusinessLayer</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Entité\EntiteDal.cs" />
+    <Compile Include="Equipe\EquipeDal.cs" />
+    <Compile Include="Fabrique\FabriqueReservation.cs" />
+    <Compile Include="Manager\ArbitreManager.cs" />
+    <Compile Include="BusinessManager.cs" />
+    <Compile Include="Manager\MatchManager.cs" />
+    <Compile Include="Manager\ReservationManager.cs" />
+    <Compile Include="Manager\JoueurManager.cs" />
+    <Compile Include="Exception\MatchOverbookException.cs" />
+    <Compile Include="Match\MatchDal.cs" />
+    <Compile Include="Personne\Arbitre\ArbitreDal.cs" />
+    <Compile Include="Personne\Joueur\ConverterPoste.cs" />
+    <Compile Include="Fabrique\FabriqueArbitre.cs" />
+    <Compile Include="Fabrique\FabriqueCoupe.cs" />
+    <Compile Include="Fabrique\FabriqueEquipe.cs" />
+    <Compile Include="Fabrique\FabriqueJoueur.cs" />
+    <Compile Include="Fabrique\FabriqueMatch.cs" />
+    <Compile Include="Fabrique\FabriqueStade.cs" />
+    <Compile Include="Personne\Arbitre\Arbitre.cs" />
+    <Compile Include="Personne\Joueur\JoueurDal.cs" />
+    <Compile Include="Personne\PersonneDal.cs" />
+    <Compile Include="Réservation\ReservationDal.cs" />
+    <Compile Include="Réservation\Reservation.cs" />
+    <Compile Include="Manager\StadeManager.cs" />
+    <Compile Include="Manager\EquipeManager.cs" />
+    <Compile Include="Coupe\Coupe.cs" />
+    <Compile Include="Manager\CoupeManager.cs" />
+    <Compile Include="Coupe\ICoupe.cs" />
+    <Compile Include="Entité\Entite.cs" />
+    <Compile Include="Entité\IEntite.cs" />
+    <Compile Include="Equipe\Equipe.cs" />
+    <Compile Include="Equipe\IEquipe.cs" />
+    <Compile Include="Fabrique\FabriqueBusinessManager.cs" />
+    <Compile Include="IBusinessManager.cs" />
+    <Compile Include="Match\IMatch.cs" />
+    <Compile Include="Personne\Arbitre\IArbitre.cs" />
+    <Compile Include="Personne\Joueur\IJoueur.cs" />
+    <Compile Include="Personne\IPersonne.cs" />
+    <Compile Include="Personne\Spectateur\ISpectateur.cs" />
+    <Compile Include="Personne\Joueur\Joueur.cs" />
+    <Compile Include="Match\Match.cs" />
+    <Compile Include="Personne\Personne.cs" />
+    <Compile Include="Personne\Joueur\Poste.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Réservation\IReservation.cs" />
+    <Compile Include="Stade\IStade.cs" />
+    <Compile Include="Stade\StadeDal.cs" />
+    <Compile Include="Stade\Stade.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\QuidditchDataAccessLayerBaseDeDonnees\QuidditchDataAccessLayerBaseDeDonnees.csproj">
+      <Project>{aa9b4aa5-2914-4229-9274-22e668b91589}</Project>
+      <Name>QuidditchDataAccessLayerBaseDeDonnees</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QuidditchDataAccessLayer\QuidditchDataAccessLayer.csproj">
+      <Project>{4d14b465-e12c-498e-85ba-fc149be963c5}</Project>
+      <Name>QuidditchDataAccessLayer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

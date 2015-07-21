@@ -1,0 +1,78 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuidditchPresentationLayer", "QuidditchPresentationLayer\QuidditchPresentationLayer.csproj", "{9CE5A1E9-E600-4DDA-AA15-AAE75D740675}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuidditchBusinessLayer", "QuidditchBusinessLayer\QuidditchBusinessLayer.csproj", "{8E59EBD9-597D-494E-9341-9767649B9F5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuidditchPresentationLayerWPF", "QuidditchPresnetationLayerWPF\QuidditchPresentationLayerWPF.csproj", "{00734983-F273-4F30-A184-8B452CCC1CCB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuidditchDataAccessLayer", "QuidditchDataAccessLayer\QuidditchDataAccessLayer.csproj", "{4D14B465-E12C-498E-85BA-FC149BE963C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuidditchDataAccessLayerBaseDeDonnees", "QuidditchDataAccessLayerBaseDeDonnees\QuidditchDataAccessLayerBaseDeDonnees.csproj", "{AA9B4AA5-2914-4229-9274-22E668B91589}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "QuidditchWebSite", "http://localhost:54977", "{A6CD0BB3-CE2B-4929-9A7A-8E2178BF1F19}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_54977"
+		Debug.AspNetCompiler.PhysicalPath = "QuidditchWebSite\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54977\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_54977"
+		Release.AspNetCompiler.PhysicalPath = "QuidditchWebSite\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54977\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "QuidditchWebSite\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuidditchUnitTest", "QuidditchUnitTest\QuidditchUnitTest.csproj", "{36419E26-BBE6-4862-A792-E3FE0752C096}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9CE5A1E9-E600-4DDA-AA15-AAE75D740675}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CE5A1E9-E600-4DDA-AA15-AAE75D740675}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CE5A1E9-E600-4DDA-AA15-AAE75D740675}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CE5A1E9-E600-4DDA-AA15-AAE75D740675}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E59EBD9-597D-494E-9341-9767649B9F5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E59EBD9-597D-494E-9341-9767649B9F5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E59EBD9-597D-494E-9341-9767649B9F5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E59EBD9-597D-494E-9341-9767649B9F5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00734983-F273-4F30-A184-8B452CCC1CCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00734983-F273-4F30-A184-8B452CCC1CCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00734983-F273-4F30-A184-8B452CCC1CCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00734983-F273-4F30-A184-8B452CCC1CCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D14B465-E12C-498E-85BA-FC149BE963C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D14B465-E12C-498E-85BA-FC149BE963C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D14B465-E12C-498E-85BA-FC149BE963C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D14B465-E12C-498E-85BA-FC149BE963C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA9B4AA5-2914-4229-9274-22E668B91589}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA9B4AA5-2914-4229-9274-22E668B91589}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA9B4AA5-2914-4229-9274-22E668B91589}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA9B4AA5-2914-4229-9274-22E668B91589}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6CD0BB3-CE2B-4929-9A7A-8E2178BF1F19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6CD0BB3-CE2B-4929-9A7A-8E2178BF1F19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6CD0BB3-CE2B-4929-9A7A-8E2178BF1F19}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6CD0BB3-CE2B-4929-9A7A-8E2178BF1F19}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{36419E26-BBE6-4862-A792-E3FE0752C096}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36419E26-BBE6-4862-A792-E3FE0752C096}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36419E26-BBE6-4862-A792-E3FE0752C096}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36419E26-BBE6-4862-A792-E3FE0752C096}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

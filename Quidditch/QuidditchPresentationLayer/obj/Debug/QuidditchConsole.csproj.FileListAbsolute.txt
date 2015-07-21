@@ -1,0 +1,6 @@
+C:\Users\Stephen\Travail\DotNet\Quidditch\QuidditchPresentationLayer\bin\Debug\QuidditchPresentationLayer.exe.config
+C:\Users\Stephen\Travail\DotNet\Quidditch\QuidditchPresentationLayer\obj\Debug\QuidditchPresentationLayer.exe
+C:\Users\Stephen\Travail\DotNet\Quidditch\QuidditchPresentationLayer\obj\Debug\QuidditchPresentationLayer.pdb
+C:\Users\Stephen\Travail\DotNet\Quidditch\QuidditchPresentationLayer\obj\Debug\QuidditchConsole.csprojResolveAssemblyReference.cache
+C:\Users\Stephen\Travail\DotNet\Quidditch\QuidditchPresentationLayer\bin\Debug\QuidditchPresentationLayer.exe
+C:\Users\Stephen\Travail\DotNet\Quidditch\QuidditchPresentationLayer\bin\Debug\QuidditchPresentationLayer.pdb

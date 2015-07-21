@@ -1,0 +1,14 @@
+C:\Users\stnunes\Projets .NET\Quidditch\QuidditchBusinessLayer\bin\Debug\QuidditchBusinessLayer.dll
+C:\Users\stnunes\Projets .NET\Quidditch\QuidditchBusinessLayer\bin\Debug\QuidditchBusinessLayer.pdb
+C:\Users\stnunes\Projets .NET\Quidditch\QuidditchBusinessLayer\obj\Debug\QuidditchBusinessLayer.csprojResolveAssemblyReference.cache
+C:\Users\stnunes\Projets .NET\Quidditch\QuidditchBusinessLayer\obj\Debug\QuidditchBusinessLayer.dll
+C:\Users\stnunes\Projets .NET\Quidditch\QuidditchBusinessLayer\obj\Debug\QuidditchBusinessLayer.pdb
+C:\Users\Stephen\Travail\DotNet\Quidditch\QuidditchBusinessLayer\bin\Debug\QuidditchBusinessLayer.dll
+C:\Users\Stephen\Travail\DotNet\Quidditch\QuidditchBusinessLayer\bin\Debug\QuidditchBusinessLayer.pdb
+C:\Users\Stephen\Travail\DotNet\Quidditch\QuidditchBusinessLayer\obj\Debug\QuidditchBusinessLayer.csprojResolveAssemblyReference.cache
+C:\Users\Stephen\Travail\DotNet\Quidditch\QuidditchBusinessLayer\obj\Debug\QuidditchBusinessLayer.dll
+C:\Users\Stephen\Travail\DotNet\Quidditch\QuidditchBusinessLayer\obj\Debug\QuidditchBusinessLayer.pdb
+C:\Users\Stephen\Travail\DotNet\Quidditch\QuidditchBusinessLayer\bin\Debug\QuidditchDataAccesLayer.dll
+C:\Users\Stephen\Travail\DotNet\Quidditch\QuidditchBusinessLayer\bin\Debug\QuidditchDataAccesLayer.pdb
+C:\Users\Stephen\Travail\DotNet\Quidditch\QuidditchBusinessLayer\bin\Debug\QuidditchDataAccesLayerBaseDeDonnees.dll
+C:\Users\Stephen\Travail\DotNet\Quidditch\QuidditchBusinessLayer\bin\Debug\QuidditchDataAccesLayerBaseDeDonnees.pdb

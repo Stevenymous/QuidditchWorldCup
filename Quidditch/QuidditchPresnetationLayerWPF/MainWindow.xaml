@@ -1,0 +1,27 @@
+﻿<Window x:Class="QuidditchPresentationLayerWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Qui Di Kitsch World Cup Manager" Height="Auto" Width="Auto" Closing="SaveDimensionAndPosition">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0">
+            <Label HorizontalAlignment="Center" VerticalAlignment="Center" FontStyle="Normal" FontSize="32">
+                Qui Di Kitsch - Manager de coupes du monde de quidditch
+            </Label>
+        </StackPanel>
+        <StackPanel Grid.Row="1">
+            <Button Background="DarkOrchid" Name="DisplayCoupes" Click="OpenWindowDisplayAllCoupes">Afficher toutes les coupes</Button>
+            <Button Background="RosyBrown" Name="DisplayMatchesExpectedOrderByDate" Click="OpenWindowDisplayMatchesExpectedOrderByDate">Afficher tous les matches prévus ordonnés par ordre croissant sur les dates</Button>
+            <Button Background="Salmon" Name="DisplayStadesWhereOneOrMoreMatchIsExpected" Click="OpenWindowStadesWhereOneOrMoreMatchIsExpected">Affiche tous les stades dont au moins un match s'est joué ou se jouera</Button>
+            <Button Background="Green" Name="DisplayPlayersWhoIsAttrapeurAndTheyPlayedAtHome" Click="OpenWindowPlayersWhoIsAttrapeurAndTheyPlayedAtHome">Affiche tous les joueurs qui sont des attrapeurs et qui ont joués à domicile</Button>
+            <Button Background="DarkSeaGreen" Name="DisplayPlayerWhoIsGardienAndTheyAreYoungerThanSeventeen" Click="OpenWindowDisplayPlayerWhoIsGardienAndTheyAreYoungerThanSeventeen" >Affiche les joueurs qui sont gardien et qui sont plus jeune que 17 ans</Button>
+            <Button Background="Tomato" Name="DisplayWindowMatch" Click="OpenWindowMatch" >Affiche tous les matches</Button>
+        </StackPanel>
+    </Grid>
+    
+</Window>
+
+    

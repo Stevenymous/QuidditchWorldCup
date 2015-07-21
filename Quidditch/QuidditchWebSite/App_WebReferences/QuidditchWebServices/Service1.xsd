@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:49249/Service.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/QuidditchWebServices" />
+  <xs:element name="GetAllMatches">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAllMatchesResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/QuidditchWebServices" minOccurs="0" name="GetAllMatchesResult" nillable="true" type="q1:ArrayOfMatch" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetReservationForOneMatch">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="idMatch" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetReservationForOneMatchResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/QuidditchWebServices" minOccurs="0" name="GetReservationForOneMatchResult" nillable="true" type="q2:ArrayOfReservation" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddReservation">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/QuidditchWebServices" minOccurs="0" name="reservation" nillable="true" type="q3:Reservation" />
+        <xs:element minOccurs="0" name="idMatch" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddReservationResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="AddReservationResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,17 @@
+C:\Users\Stephen\Travail\DotNet\Quidditch\QuidditchPresnetationLayerWPF\bin\Debug\QuidditchPresnetationLayerWPF.exe.config
+C:\Users\Stephen\Travail\DotNet\Quidditch\QuidditchPresnetationLayerWPF\bin\Debug\QuidditchPresnetationLayerWPF.exe
+C:\Users\Stephen\Travail\DotNet\Quidditch\QuidditchPresnetationLayerWPF\bin\Debug\QuidditchPresnetationLayerWPF.pdb
+C:\Users\Stephen\Travail\DotNet\Quidditch\QuidditchPresnetationLayerWPF\obj\Debug\QuidditchPresnetationLayerWPF.csprojResolveAssemblyReference.cache
+C:\Users\Stephen\Travail\DotNet\Quidditch\QuidditchPresnetationLayerWPF\obj\Debug\MainWindow.baml
+C:\Users\Stephen\Travail\DotNet\Quidditch\QuidditchPresnetationLayerWPF\obj\Debug\MainWindow.g.cs
+C:\Users\Stephen\Travail\DotNet\Quidditch\QuidditchPresnetationLayerWPF\obj\Debug\App.g.cs
+C:\Users\Stephen\Travail\DotNet\Quidditch\QuidditchPresnetationLayerWPF\obj\Debug\QuidditchPresnetationLayerWPF_MarkupCompile.cache
+C:\Users\Stephen\Travail\DotNet\Quidditch\QuidditchPresnetationLayerWPF\obj\Debug\QuidditchPresnetationLayerWPF.g.resources
+C:\Users\Stephen\Travail\DotNet\Quidditch\QuidditchPresnetationLayerWPF\obj\Debug\QuidditchPresnetationLayerWPF.Properties.Resources.resources
+C:\Users\Stephen\Travail\DotNet\Quidditch\QuidditchPresnetationLayerWPF\obj\Debug\QuidditchPresnetationLayerWPF.csproj.GenerateResource.Cache
+C:\Users\Stephen\Travail\DotNet\Quidditch\QuidditchPresnetationLayerWPF\obj\Debug\QuidditchPresnetationLayerWPF.exe
+C:\Users\Stephen\Travail\DotNet\Quidditch\QuidditchPresnetationLayerWPF\obj\Debug\QuidditchPresnetationLayerWPF.pdb
+C:\Users\Stephen\Travail\DotNet\Quidditch\QuidditchPresnetationLayerWPF\obj\Debug\WindowAllCoupes.baml
+C:\Users\Stephen\Travail\DotNet\Quidditch\QuidditchPresnetationLayerWPF\obj\Debug\WindowAllCoupes.g.cs
+C:\Users\Stephen\Travail\DotNet\Quidditch\QuidditchPresnetationLayerWPF\obj\Debug\WindowMatchesExpectedOrderByDate.baml
+C:\Users\Stephen\Travail\DotNet\Quidditch\QuidditchPresnetationLayerWPF\obj\Debug\WindowMatchesExpectedOrderByDate.g.cs

@@ -1,0 +1,58 @@
+﻿<Window x:Class="QuidditchPresentationLayerWPF.WindowMatch"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="WindowMatch" Height="300" Width="300" Closing="SaveDimensionAndPosition" Loaded="Load">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30" />
+            <RowDefinition Height="100*" />
+            <RowDefinition Height="180" />
+        </Grid.RowDefinitions>
+        <Label Grid.Row="0">Liste des matches de quidditch</Label>
+        <DataGrid Grid.Row="1" ItemsSource="{Binding Matches}" SelectedItem="{Binding SelectedItemMatch}" AutoGenerateColumns="False"  
+            CanUserAddRows="False" CanUserDeleteRows="False">
+            <DataGrid.Columns>
+                <DataGridTemplateColumn Header="Date">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <DatePicker SelectedDate="{Binding DateMatch}" />
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTextColumn Header="Equipe domicile" Binding="{Binding EquipeDomicile.Nom, Mode=OneTime}" />
+                <DataGridTextColumn Header="Score" Binding="{Binding ScoreDomicile}" />
+                <DataGridTextColumn Header="Score" Binding="{Binding ScoreVisiteur}" />
+                <DataGridTextColumn Header="Equipe visiteur" Binding="{Binding EquipeVisiteur.Nom, Mode=OneTime}" />
+                <DataGridTextColumn Header="Stade" Binding="{Binding StadeMatch.Nom, Mode=OneTime}" />
+                <DataGridTextColumn Header="Arbitre" Binding="{Binding Arbitre.PrenomNom, Mode=OneTime}" />
+            </DataGrid.Columns>
+        </DataGrid>
+        <Grid Grid.Row="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="135*" />
+                <RowDefinition Height="45*" />
+            </Grid.RowDefinitions>
+            <WrapPanel Grid.Row="0" HorizontalAlignment="Center" Orientation="Horizontal">
+                <Label Content="Date" Margin="10"/>
+                <DatePicker Margin="10" SelectedDate="{Binding MatchCreate.DateMatch}" />
+                <Label Content="Equipe domicile" Margin="10"/>
+                <ComboBox Margin="10" ItemsSource="{Binding Equipes}" SelectedItem="{Binding MatchCreate.EquipeDomicile}" MinWidth="100"/>
+                <Label Content="Score domicile" Margin="10"/>
+                <TextBox Margin="10" Text="{Binding MatchCreate.ScoreDomicile}" MinWidth="100"/> 
+                <Label Content="Score visiteur" Margin="10"/>
+                <TextBox Margin="10" Text="{Binding MatchCreate.ScoreVisiteur}" MinWidth="100"/> 
+                <Label Content="Equipe visiteur" Margin="10"/>
+                <ComboBox Margin="10" ItemsSource="{Binding Equipes}" SelectedItem="{Binding MatchCreate.EquipeVisiteur}" MinWidth="100"/>
+                <Label Content="Stade" Margin="10"/>
+                <ComboBox Margin="10" ItemsSource="{Binding Stades}" SelectedItem="{Binding MatchCreate.StadeMatch}" MinWidth="100"/>
+                <Label Content="Arbitre" Margin="10"/>
+                <ComboBox Margin="10" ItemsSource="{Binding Arbitres}" SelectedItem="{Binding MatchCreate.Arbitre}" MinWidth="100"/>
+                <Label Content="(Pour supprimer, sélectionner une ligne et cliquer sur Suppr)" Margin="10"/>
+            </WrapPanel>
+            <StackPanel Grid.Row="1" Orientation="Vertical">
+                <Button Name="btnAddMatch" Content="Ajouter un match" Command="{Binding AjouterMatch}"/>
+                <Button Name="btnDeleteMatch" Content="Supprimer un match" Command="{Binding SupprimerMatch}"/>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>

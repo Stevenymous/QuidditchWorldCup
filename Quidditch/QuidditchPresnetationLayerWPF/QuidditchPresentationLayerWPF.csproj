@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{00734983-F273-4F30-A184-8B452CCC1CCB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>QuidditchPresentationLayerWPF</RootNamespace>
+    <AssemblyName>QuidditchPresentationLayerWPF</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="DimensionAndPosition\DimensionAndPosition.cs" />
+    <Compile Include="DimensionAndPosition\ManagerPersistenceDimensionAndPosition.cs" />
+    <Compile Include="Model\Entite\EntiteBusiness.cs" />
+    <Compile Include="Model\Equipe\EquipeBusiness.cs" />
+    <Compile Include="Model\Match\MatchBusiness.cs" />
+    <Compile Include="Model\Personne\Arbitre\ArbitreBusiness.cs" />
+    <Compile Include="Model\Personne\Arbitre\Arbitre.cs" />
+    <Compile Include="Model\Personne\Joueur\ConverterPoste.cs" />
+    <Compile Include="Model\Coupe\Coupe.cs" />
+    <Compile Include="Model\Entite\Entite.cs" />
+    <Compile Include="Model\Equipe\Equipe.cs" />
+    <Compile Include="Model\Fabrique\FabriqueArbitre.cs" />
+    <Compile Include="Model\Fabrique\FabriqueEquipe.cs" />
+    <Compile Include="Model\Fabrique\FabriqueJoueur.cs" />
+    <Compile Include="Model\Fabrique\FabriqueMatch.cs" />
+    <Compile Include="Model\Fabrique\FabriqueStade.cs" />
+    <Compile Include="Model\Personne\Arbitre\IArbitre.cs" />
+    <Compile Include="Model\Coupe\ICoupe.cs" />
+    <Compile Include="Model\Entite\IEntite.cs" />
+    <Compile Include="Model\Equipe\IEquipe.cs" />
+    <Compile Include="Model\Personne\Joueur\IJoueur.cs" />
+    <Compile Include="Model\Match\IMatch.cs" />
+    <Compile Include="Model\Personne\IPersonne.cs" />
+    <Compile Include="Model\Personne\Joueur\JoueurBusiness.cs" />
+    <Compile Include="Model\Personne\PersonneBusiness.cs" />
+    <Compile Include="Model\Stade\IStade.cs" />
+    <Compile Include="Model\Personne\Joueur\Joueur.cs" />
+    <Compile Include="Model\Match\Match.cs" />
+    <Compile Include="Model\ModelManager.cs" />
+    <Compile Include="Model\Personne\Personne.cs" />
+    <Compile Include="Model\Personne\Poste.cs" />
+    <Compile Include="Model\Stade\StadeBusiness.cs" />
+    <Compile Include="Model\Stade\Stade.cs" />
+    <Compile Include="ViewModel\MatchesViewModel.cs" />
+    <Compile Include="ViewModel\MatchViewModel.cs" />
+    <Compile Include="ViewModel\RelayCommand.cs" />
+    <Compile Include="ViewModel\ViewModelBase.cs" />
+    <Compile Include="WindowAllCoupes.xaml.cs">
+      <DependentUpon>WindowAllCoupes.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WindowDisplayPlayerWhoIsGardienAndTheyAreYoungerThanSeventeen.xaml.cs">
+      <DependentUpon>WindowDisplayPlayerWhoIsGardienAndTheyAreYoungerThanSeventeen.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WindowMatch.xaml.cs">
+      <DependentUpon>WindowMatch.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WindowMatchesExpectedOrderByDate.xaml.cs">
+      <DependentUpon>WindowMatchesExpectedOrderByDate.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WindowPlayersWhoIsAttrapeurAndTheyPlayedAtHome.xaml.cs">
+      <DependentUpon>WindowPlayersWhoIsAttrapeurAndTheyPlayedAtHome.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WindowStadesWhereOneOrMoreMatchIsExpected.xaml.cs">
+      <DependentUpon>WindowStadesWhereOneOrMoreMatchIsExpected.xaml</DependentUpon>
+    </Compile>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="WindowAllCoupes.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WindowDisplayPlayerWhoIsGardienAndTheyAreYoungerThanSeventeen.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WindowMatch.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WindowMatchesExpectedOrderByDate.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WindowPlayersWhoIsAttrapeurAndTheyPlayedAtHome.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WindowStadesWhereOneOrMoreMatchIsExpected.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\QuidditchBusinessLayer\QuidditchBusinessLayer.csproj">
+      <Project>{8e59ebd9-597d-494e-9341-9767649b9f5a}</Project>
+      <Name>QuidditchBusinessLayer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

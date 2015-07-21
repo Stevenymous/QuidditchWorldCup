@@ -1,0 +1,19 @@
+C:\Users\stnunes\Projets .NET\QuidditchPresentationLayer\QuidditchPresentationLayer\bin\Debug\QuidditchPresentationLayer.exe.config
+C:\Users\stnunes\Projets .NET\Quidditch\QuidditchPresentationLayer\bin\Debug\QuidditchPresentationLayer.exe.config
+C:\Users\stnunes\Projets .NET\Quidditch\QuidditchPresentationLayer\bin\Debug\QuidditchPresentationLayer.exe
+C:\Users\stnunes\Projets .NET\Quidditch\QuidditchPresentationLayer\bin\Debug\QuidditchPresentationLayer.pdb
+C:\Users\stnunes\Projets .NET\Quidditch\QuidditchPresentationLayer\obj\Debug\QuidditchPresentationLayer.csprojResolveAssemblyReference.cache
+C:\Users\stnunes\Projets .NET\Quidditch\QuidditchPresentationLayer\obj\Debug\QuidditchPresentationLayer.exe
+C:\Users\stnunes\Projets .NET\Quidditch\QuidditchPresentationLayer\obj\Debug\QuidditchPresentationLayer.pdb
+C:\Users\Stephen\Travail\DotNet\Quidditch\QuidditchPresentationLayer\bin\Debug\QuidditchPresentationLayer.exe.config
+C:\Users\Stephen\Travail\DotNet\Quidditch\QuidditchPresentationLayer\obj\Debug\QuidditchPresentationLayer.exe
+C:\Users\Stephen\Travail\DotNet\Quidditch\QuidditchPresentationLayer\obj\Debug\QuidditchPresentationLayer.pdb
+C:\Users\Stephen\Travail\DotNet\Quidditch\QuidditchPresentationLayer\bin\Debug\QuidditchPresentationLayer.exe
+C:\Users\Stephen\Travail\DotNet\Quidditch\QuidditchPresentationLayer\bin\Debug\QuidditchPresentationLayer.pdb
+C:\Users\Stephen\Travail\DotNet\Quidditch\QuidditchPresentationLayer\obj\Debug\QuidditchPresentationLayer.csprojResolveAssemblyReference.cache
+C:\Users\Stephen\Travail\DotNet\Quidditch\QuidditchPresentationLayer\bin\Debug\QuidditchBusinessLayer.dll
+C:\Users\Stephen\Travail\DotNet\Quidditch\QuidditchPresentationLayer\bin\Debug\QuidditchDataAccesLayer.dll
+C:\Users\Stephen\Travail\DotNet\Quidditch\QuidditchPresentationLayer\bin\Debug\QuidditchBusinessLayer.pdb
+C:\Users\Stephen\Travail\DotNet\Quidditch\QuidditchPresentationLayer\bin\Debug\QuidditchDataAccesLayer.pdb
+C:\Users\Stephen\Travail\DotNet\Quidditch\QuidditchPresentationLayer\bin\Debug\QuidditchDataAccesLayerBaseDeDonnees.dll
+C:\Users\Stephen\Travail\DotNet\Quidditch\QuidditchPresentationLayer\bin\Debug\QuidditchDataAccesLayerBaseDeDonnees.pdb

@@ -1,0 +1,8 @@
+C:\Users\Stephen\Travail\DotNet\Quidditch\QuidditchUnitTest\bin\Debug\QuidditchUnitTest.dll
+C:\Users\Stephen\Travail\DotNet\Quidditch\QuidditchUnitTest\bin\Debug\QuidditchUnitTest.pdb
+C:\Users\Stephen\Travail\DotNet\Quidditch\QuidditchUnitTest\obj\Debug\QuidditchUnitTest.csprojResolveAssemblyReference.cache
+C:\Users\Stephen\Travail\DotNet\Quidditch\QuidditchUnitTest\obj\Debug\QuidditchUnitTest.dll
+C:\Users\Stephen\Travail\DotNet\Quidditch\QuidditchUnitTest\obj\Debug\QuidditchUnitTest.pdb
+C:\Users\Stephen\Travail\DotNet\Quidditch\QuidditchUnitTest\bin\Debug\QuidditchUnitTest.dll.config
+C:\Users\Stephen\Travail\DotNet\Quidditch\QuidditchUnitTest\bin\Debug\QuidditchDataAccesLayerBaseDeDonnees.dll
+C:\Users\Stephen\Travail\DotNet\Quidditch\QuidditchUnitTest\bin\Debug\QuidditchDataAccesLayerBaseDeDonnees.pdb

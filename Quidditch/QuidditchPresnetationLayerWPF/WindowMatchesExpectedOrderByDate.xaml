@@ -1,0 +1,11 @@
+﻿<Window x:Class="QuidditchPresentationLayerWPF.WindowMatchesExpectedOrderByDate"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="WindowMatchesExpectedOrderByDate" Height="Auto" Width="Auto" Initialized="LoadData"  Closing="SaveDimensionAndPosition">
+    <Grid>
+        <StackPanel>
+            <Label VerticalAlignment="Center" HorizontalAlignment="Center">Liste des matches prévus ordonnées par date</Label>
+            <ListBox Name="listMatches"></ListBox>
+        </StackPanel>
+    </Grid>
+</Window>

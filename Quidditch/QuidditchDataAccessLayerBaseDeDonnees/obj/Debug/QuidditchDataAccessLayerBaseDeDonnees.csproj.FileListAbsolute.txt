@@ -1,0 +1,10 @@
+C:\Users\Stephen\Travail\DotNet\Quidditch\QuidditchDataAccesLayerBaseDeDonnees\bin\Debug\QuidditchDataAccesLayerBaseDeDonnees.dll
+C:\Users\Stephen\Travail\DotNet\Quidditch\QuidditchDataAccesLayerBaseDeDonnees\bin\Debug\QuidditchDataAccesLayerBaseDeDonnees.pdb
+C:\Users\Stephen\Travail\DotNet\Quidditch\QuidditchDataAccesLayerBaseDeDonnees\obj\Debug\QuidditchDataAccessLayerBaseDeDonnees.csprojResolveAssemblyReference.cache
+C:\Users\Stephen\Travail\DotNet\Quidditch\QuidditchDataAccesLayerBaseDeDonnees\obj\Debug\QuidditchDataAccesLayerBaseDeDonnees.dll
+C:\Users\Stephen\Travail\DotNet\Quidditch\QuidditchDataAccesLayerBaseDeDonnees\obj\Debug\QuidditchDataAccesLayerBaseDeDonnees.pdb
+C:\Users\Stephen\Travail\DotNet\Quidditch\QuidditchDataAccessLayerBaseDeDonnees\bin\Debug\QuidditchDataAccesLayerBaseDeDonnees.dll
+C:\Users\Stephen\Travail\DotNet\Quidditch\QuidditchDataAccessLayerBaseDeDonnees\bin\Debug\QuidditchDataAccesLayerBaseDeDonnees.pdb
+C:\Users\Stephen\Travail\DotNet\Quidditch\QuidditchDataAccessLayerBaseDeDonnees\obj\Debug\QuidditchDataAccessLayerBaseDeDonnees.csprojResolveAssemblyReference.cache
+C:\Users\Stephen\Travail\DotNet\Quidditch\QuidditchDataAccessLayerBaseDeDonnees\obj\Debug\QuidditchDataAccesLayerBaseDeDonnees.dll
+C:\Users\Stephen\Travail\DotNet\Quidditch\QuidditchDataAccessLayerBaseDeDonnees\obj\Debug\QuidditchDataAccesLayerBaseDeDonnees.pdb

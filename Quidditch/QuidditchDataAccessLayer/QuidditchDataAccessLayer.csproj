@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4D14B465-E12C-498E-85BA-FC149BE963C5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>QuidditchDataAccesLayer</RootNamespace>
+    <AssemblyName>QuidditchDataAccesLayer</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Coupe\Coupe.cs" />
+    <Compile Include="Coupe\ICoupe.cs" />
+    <Compile Include="DalProxy.cs" />
+    <Compile Include="IDalManagerArbitre.cs" />
+    <Compile Include="IDalManagerReservation.cs" />
+    <Compile Include="StubDalManagerArbitre.cs" />
+    <Compile Include="StubDalManagerCoupe.cs" />
+    <Compile Include="StubDalManagerEquipe.cs" />
+    <Compile Include="StubDalManagerJoueur.cs" />
+    <Compile Include="StubDalManagerMatch.cs" />
+    <Compile Include="StubDalManagerReservation.cs" />
+    <Compile Include="StubDalManagerStade.cs" />
+    <Compile Include="Fabrique\FabriqueArbitre.cs" />
+    <Compile Include="Fabrique\FabriqueCoupe.cs" />
+    <Compile Include="Fabrique\FabriqueEquipe.cs" />
+    <Compile Include="Fabrique\FabriqueJoueur.cs" />
+    <Compile Include="Fabrique\FabriqueMatch.cs" />
+    <Compile Include="Fabrique\FabriqueReservations.cs" />
+    <Compile Include="Fabrique\FabriqueStade.cs" />
+    <Compile Include="IDalManagerCoupe.cs" />
+    <Compile Include="IDalManagerEquipe.cs" />
+    <Compile Include="IDalManagerJoueur.cs" />
+    <Compile Include="IDalManagerMatch.cs" />
+    <Compile Include="IDalManagerStade.cs" />
+    <Compile Include="Personne\Arbitre\Arbitre.cs" />
+    <Compile Include="Entité\Entite.cs" />
+    <Compile Include="Equipe\Equipe.cs" />
+    <Compile Include="Personne\Arbitre\IArbitre.cs" />
+    <Compile Include="Entité\IEntite.cs" />
+    <Compile Include="Equipe\IEquipe.cs" />
+    <Compile Include="Personne\Joueur\IJoueur.cs" />
+    <Compile Include="Match\IMatch.cs" />
+    <Compile Include="Personne\IPersonne.cs" />
+    <Compile Include="Personne\Personne.cs" />
+    <Compile Include="Réservation\IReservation.cs" />
+    <Compile Include="Personne\Spectateur\ISpectateur.cs" />
+    <Compile Include="Réservation\Reservation.cs" />
+    <Compile Include="Stade\IStade.cs" />
+    <Compile Include="Personne\Joueur\Joueur.cs" />
+    <Compile Include="Match\Match.cs" />
+    <Compile Include="Personne\Poste.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Personne\Spectateur\Spectateur.cs" />
+    <Compile Include="Stade\Stade.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/QuidditchWebServices" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/QuidditchWebServices" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:49249/Service.svc?xsd=xsd3" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <xs:complexType name="ArrayOfMatch">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Match" nillable="true" type="tns:Match" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfMatch" nillable="true" type="tns:ArrayOfMatch" />
+  <xs:complexType name="Match">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:Entite">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="DateDuMatch" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="NomEquipeDomicile" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="NomEquipeVisiteur" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="NomStadeDuMatch" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="PrenomNomArbitreDuMatch" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ScoreEquipeDomicile" type="xs:int" />
+          <xs:element minOccurs="0" name="ScoreEquipeVisiteur" type="xs:int" />
+          <xs:element xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="StringReservationsPourLeMatch" nillable="true" type="q1:ArrayOfstring" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Match" nillable="true" type="tns:Match" />
+  <xs:complexType name="Entite">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Identifiant" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Entite" nillable="true" type="tns:Entite" />
+  <xs:complexType name="ArrayOfReservation">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Reservation" nillable="true" type="tns:Reservation" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfReservation" nillable="true" type="tns:ArrayOfReservation" />
+  <xs:complexType name="Reservation">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:Entite">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Place" type="xs:int" />
+          <xs:element minOccurs="0" name="Prix" type="xs:float" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Reservation" nillable="true" type="tns:Reservation" />
+</xs:schema>
