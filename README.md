@@ -2,6 +2,7 @@
 ========================
 
 Application C# 3 couches, composée de :
+---------------------------------------
 
  -Une application console
  
