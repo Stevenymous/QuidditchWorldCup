@@ -10,7 +10,7 @@ Application C# 3 couches, composée de :
  
  -Smart Application avancée : pattern MVVM, userControl...
  
- -Accès aux données via une DAL de connecxion à SQL Server mais aussi utilissable par un web service
+ -Accès aux données via une DAL de connexion à SQL Server mais aussi utilissable par un web service
  
  -Web service communiquant avec la DAL et affichant des résultats
  
